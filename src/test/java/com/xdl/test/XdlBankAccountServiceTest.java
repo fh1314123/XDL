@@ -13,6 +13,6 @@ public class XdlBankAccountServiceTest {
 			new ClassPathXmlApplicationContext("applicationContext.xml");
         XdlBankAccountService bankService =  app.getBean("bankService",
         	XdlBankAccountService.class);
-        System.out.println(bankService.login("abc", "123"));
+        System.out.println(bankService.login("abc", "12345"));
 	}
 }
